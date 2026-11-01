@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+out/
+
+# Tool caches
+.cache/
+.eslintcache
+.vite/
+.vitest/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs and process state
+logs/
+*.log
+*.pid
+*.pid.lock
+npm-debug.log*
+
+# Temporary recipe output
+tmp/
+temp/
+
+# Local certificates and keys
+.certs/
+*.key
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

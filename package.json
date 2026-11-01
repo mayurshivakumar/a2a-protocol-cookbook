@@ -1,0 +1,26 @@
+{
+  "name": "a2a-protocol-cookbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable JavaScript recipes for the Agent2Agent Protocol",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "cookbook": "node scripts/run-recipe.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@a2a-js/sdk": "1.1.0",
+    "@hapi/hapi": "21.4.10",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6",
+    "vitest": "4.1.11"
+  }
+}
